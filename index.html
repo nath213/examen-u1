@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./scr/css/bootstrap.min.css">
+</head>
+<body>
+    <!--Ejercicio uno-->
+    <div class="d-flex mt-5 ms-5">
+        <div class="card">
+            <div class="card-body ">
+                <input type="button" class="btn btn-outline-primary" value="Botón 1">
+                <input type="button" class="btn btn-outline-success" value="Botón 2">
+                <input type="button" class="btn btn-outline-danger" value="Botón 3">
+            </div>
+        </div>
+    </div>
+    <!--Ejercicio dos-->
+    <div class="col-4 mt-5 ms-5">
+        <div class="card">
+            <div class="card-body">
+                <h1>Titulo</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi cupiditate quos assumenda odio ipsam ipsum dolore vero eveniet nostrum harum. Est quaerat incidunt modi. Aliquam numquam dolore est molestiae ratione!</p>
+                <div class="text-end">
+                    <a href="#" class="btn btn-primary">Continuar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Ejercicio tres-->
+    <div class="col-4 mt-5 ms-5">
+        <div class="card border-0 d-flex shadow">
+            <div class="card-body">
+                <h4 class="mb-4">Inicio de sesion</h4>
+                <div class="row g-3">
+                    <div class="col-12">
+                        <label class="form-label">Usuario o correo electronico</label>
+                        <input type="text" class="form-control" placeholder="Usuario o correo electronico">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" placeholder="Contraseña">
+                    </div>
+                    <div class="col-12">
+                        <button type="button" class="btn btn-outline-primary col-12">Iniciar sesion</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Ejercicio cuatro-->
+    <div class="col-5 mt-5 ms-5">
+        <div class=" d-flex col-3">
+            <div class="card-body">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Registros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Nuevo registro</a>
+                    </li>
+                <table class="table table-striped">
+                    <thead class="table-dark">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-5 mt-5 ms-5">
+        <div class="card border-0 shadow">
+            <div class="card-body">
+                <div class="align-items-center d-flex">
+                    <h5 class="m-0">Nathan Moises Sanchez Ramirez</h5>
+                    <span class="ms-auto badge bg-success">Activo</span>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="btn-group-vertical col-10" role="group" aria-label="Vertical radio toggle button group">
+                            <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off"
+                                checked>
+                            <label class="btn btn-outline-primary text-start" for="vbtn-radio1">Infografia</label>
+                            <input type="radio" class="btn-check " name="vbtn-radio" id="vbtn-radio2" autocomplete="off">
+                            <label class="btn btn-outline-dark text-start" for="vbtn-radio2">Direccion</label>
+                            <input type="radio" class="btn-check " name="vbtn-radio" id="vbtn-radio3" autocomplete="off">
+                            <label class="btn btn-outline-dark text-start" for="vbtn-radio3">Historial academico</label>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <label for="">Soy Nathan Moises Sanchez Ramirez, soy un poco alto y me gusta comer mucho.
+                            Actualmente estoy estudiando en la UTEZ, estoy estudiando desarrollo de software
+                            multiplataforma.</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./scr/java/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
